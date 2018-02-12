@@ -1,0 +1,268 @@
+html{
+	margin: 0;
+	width:100%;
+	overflow-x: hidden;
+}
+
+li {
+	margin-right: 2rem;
+}
+
+.btn-primary {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 3px solid rgba(58, 133, 191, 0.75);
+  border-radius: 80px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  font-size: 28px;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(58, 133, 191, 0.75);
+}
+
+ blockquote {border-color: white !important; }
+
+.projects {
+	width: 15em;
+	min-height: 8em;
+	filter: drop-shadow(0 0 20px #333);
+	float: left;
+}
+
+#spring {
+	width: 8rem;
+	margin-bottom: 6rem;
+}
+
+.vertical-border {
+	border:         none;
+    border-left:    5px solid white;
+    height:         35vh;
+    width:          1px; 
+    margin-right: 20px;
+}
+
+body {
+	  background: url(../images/purple.jpg) no-repeat center center fixed;
+	  background-size: cover;
+	  height: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+.box {
+	background-color: #ABE3F5;
+	width: 400px;
+}
+
+#info, #projects {
+	display: inline-block;
+	margin-top: 100px;
+}
+
+i {
+	font-size: 10rem;
+}
+
+svg {
+	width: 8rem;
+}
+
+.rotate-text {
+	transform: rotate(270deg);
+	font-size: 80px;
+	margin-top: 90px;
+}
+
+.rotate-text-right {
+	transform: rotate(90deg);
+	font-size: 80px;
+	margin-top: 90px;
+}
+
+.dropshadow {
+	filter: drop-shadow(0 0 30px #333);
+}
+
+.greeting {
+	font-size: 150px;
+	color: white;
+	font-weight: normal;
+	filter: drop-shadow(0 0 30px #333);
+}
+
+.img-circle {
+    border-radius: 20%;
+}
+
+#foto {
+	height: 200px;
+}
+
+.container {
+	margin-top: 10%;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 5%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#linkedin {
+	width: 50px;
+	height: 50px;
+	margin-right: 50px;
+}
+
+#email {
+	width: 50px;
+	height: 50px;
+	margin-right: 50px;
+}
+
+#cv {
+	width: 50px;
+	height: 50px;
+	margin-right: 50px;
+}
+
+#foto {
+	width: 300px;
+	height: 300px;
+	border: 10px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 150px;
+}
+
+@media screen and (max-device-width: 640px){
+	.greeting {
+		font-size: 100px;
+		color: white;
+		font-weight: normal;
+		filter: drop-shadow(0 0 30px #333);
+	}
+
+	#skillheader {
+		margin-right: -5rem !important;
+	}
+
+	.info-content {
+		text-align: justify;
+		font-size: 18px !important;
+		margin-top: 10px;
+	}
+
+	#foto {
+		width: 250px;
+		height: 250px;
+		border: 10px solid #FFFFFF;
+		box-sizing: border-box;
+		border-radius: 150px;
+	}
+
+  	#linkedin {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	#email {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	#cv {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .info-content {
+		text-align: justify;
+		font-size: 18px !important;
+		margin-top: 10px;
+	}
+
+	#skillheader {
+		margin-right: -5rem !important;
+	}
+
+    .greeting {
+		font-size: 100px;
+		color: white;
+		font-weight: normal;
+		filter: drop-shadow(0 0 30px #333);
+	}
+
+	#foto {
+		width: 250px;
+		height: 250px;
+		border: 10px solid #FFFFFF;
+		box-sizing: border-box;
+		border-radius: 150px;
+	}
+
+    #linkedin {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	#email {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	#cv {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+}
+
+.pink {
+	background-color: #ffbfe6;
+}
+
+.ellipse {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	background: #ABE3F5;
+	border: 10px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+
+.info-content {
+	text-align: justify;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+
